@@ -1,0 +1,65 @@
+body { 
+    background-image: url('imagens/transferir.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    min-height: 100vh; 
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(254, 254, 255);
+    margin: 0; 
+}
+
+header {
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 15px; 
+    padding: 20px;
+    width: 80%; 
+    margin: 20px auto; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px; 
+}
+
+.qr-code {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    align-self: center;
+}
+
+button:hover {
+    background-color: #797474;
+}
+
+#dov {
+    display: flex;
+    justify-content: center;
+}
